@@ -1,0 +1,22 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Mon, 11 Sep 2017 14:06:10 +0300
+Subject: Change GRUB_DISTRUBUTOR command
+
+---
+ grub2/config.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/grub2/config.go b/grub2/config.go
+index 7d29816..de107b8 100644
+--- a/grub2/config.go
++++ b/grub2/config.go
+@@ -66,7 +66,7 @@ func (c1 *Config) Equal(c2 *Config) bool {
+ const (
+ 	GRUB_THEME                 = "/boot/grub/themes/deepin/theme.txt"
+ 	GRUB_BACKGROUND            = "/boot/grub/themes/deepin/background.png"
+-	GRUB_DISTRIBUTOR           = "`/usr/bin/lsb_release -d -s 2>/dev/null || echo Deepin`"
++	GRUB_DISTRIBUTOR           = "`/usr/bin/lsb_release -i -s 2>/dev/null || echo Pardus`"
+ 	GRUB_CMDLINE_LINUX_DEFAULT = "splash quiet "
+ )
+ 

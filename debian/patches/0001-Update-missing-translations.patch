@@ -1,0 +1,68 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Wed, 6 Sep 2017 10:05:33 +0300
+Subject: Update missing translations
+
+---
+ misc/po/tr.po | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/misc/po/tr.po b/misc/po/tr.po
+index ca6dfcb..04facae 100644
+--- a/misc/po/tr.po
++++ b/misc/po/tr.po
+@@ -133,7 +133,7 @@ msgstr "%q'ya bağlanamadı, otomatik olarak yoksayıldı"
+ 
+ #: ../../dock/app_entry_menu.go:99
+ msgid "_Open"
+-msgstr "_Open"
++msgstr "_Aç"
+ 
+ #: ../../dock/app_entry_menu.go:106
+ msgid "_Close All"
+@@ -141,15 +141,15 @@ msgstr "_Hepsini Kapat"
+ 
+ #: ../../dock/app_entry_menu.go:115
+ msgid "_Dock"
+-msgstr "_Dock"
++msgstr "_Tuttur"
+ 
+ #: ../../dock/app_entry_menu.go:122
+ msgid "_Undock"
+-msgstr "_Undock"
++msgstr "Ayır(_U)"
+ 
+ #: ../../dock/app_entry_menu.go:129
+ msgid "_All windows"
+-msgstr "_All windows"
++msgstr "_Tüm Pencereler"
+ 
+ #: ../../grub2/utils.go:138
+ msgid "Authentication is required to change the grub2 configuration"
+@@ -865,7 +865,7 @@ msgstr "VPN"
+ 
+ #: ../../network/nm_setting_beans_gen.go:157
+ msgid "Need VPN Plugin"
+-msgstr "Need VPN Plugin"
++msgstr "VPN Plugin Gerekli"
+ 
+ #: ../../network/nm_setting_beans_gen.go:158
+ #: ../../network/nm_setting_beans_gen.go:163
+@@ -1031,7 +1031,7 @@ msgstr "HMAC Auth"
+ 
+ #: ../../network/nm_setting_beans_gen.go:305
+ msgid "VPN TLS Authentication"
+-msgstr "VPN TLS Authentication"
++msgstr "VPN TLS Doğrulama"
+ 
+ #: ../../network/nm_setting_beans_gen.go:307
+ msgid "Subject Match"
+@@ -1068,7 +1068,7 @@ msgstr "Başarısız Olduğunda Sınırsız Olarak Yeniden Dene"
+ #: ../../network/nm_setting_beans_gen.go:330
+ #: ../../network/nm_setting_beans_gen.go:414
+ msgid "VPN Advanced"
+-msgstr "VPN Advanced"
++msgstr "VPN Gelişmiş"
+ 
+ #: ../../network/nm_setting_beans_gen.go:332
+ msgid "Customize Gateway Port"

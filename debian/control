@@ -1,7 +1,7 @@
 Source: dde-daemon
 Section: devel
 Priority: extra
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
 Build-Depends: debhelper (>= 9), golang-go,
  dde-go-dbus-factory(>= 0.6.1),
  golang-dlib-dev(>= 0.4.0), golang-gir-gobject-2.0-dev,
@@ -35,8 +35,8 @@ Build-Depends: debhelper (>= 9), golang-go,
  libxcb1-dev,libxcb-record0-dev,
  libpam-dev,
  dde-api-dev (>=2.92.2),deepin-desktop-schemas,golang-gir-gudev-1.0-dev,
-Standards-Version: 3.9.5
-Homepage: http://www.deepin.com
+Standards-Version: 3.9.8
+Homepage: http://pardus.org.tr
 
 Package: dde-daemon
 Architecture: any
